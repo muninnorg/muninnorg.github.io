@@ -1,0 +1,86 @@
+/****************************
+ ****** General Styles  *****
+ ****************************/
+body
+{
+        font-family: 'Times New Roman', times, serif;
+	font-size: 16px;
+	color: #000000; 
+	background-color: #ffffff;
+	margin: 12px;
+}
+
+h1, h2, h3, h4, h5
+{
+        font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-decoration: none;
+}
+
+h1 {font-size: 18px;}
+h2 {font-size: 16px;}
+
+td
+{
+        font-family: 'Times New Roman', times, serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+th
+{
+        font-family: 'Times New Roman', times, serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+a:link
+{
+	color: #000080;
+	text-decoration: none;
+}	
+
+a:visited
+{
+	color: #000080;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #000080;
+	text-decoration: underline;
+}
+
+.imglink
+{
+	border-width: 0px;
+}
+
+/**********************
+ ****** Titlepage *****
+ **********************/
+#titleleft {
+        font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 5px 10px 5px 10px;
+	color: #ffffff;
+	background-color: #000000;
+	border-width: 1px 0px 1px 1px; border-style: solid; border-color: black;
+}
+
+#titleright {
+        font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 12px;
+	text-align: right;
+	color: #ffffff;
+	background-color: #000000;
+	border-width: 1px 1px 1px 0px; border-style: solid; border-color: black;
+}
+
+#textbox {
+        font-family: 'Times New Roman', times, serif;
+	font-size: 16px;
+	border-width: 0px 1px 1px 1px; border-style: solid; border-color: black;
+        padding: 20px;
+}
